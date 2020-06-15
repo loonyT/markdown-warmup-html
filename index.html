@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> HTML WARMUP </title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+        <!-- a bit of code-->
+         <script>
+  function showAlert() {
+    alert ("Hello world!");
+  }
+  </script>
+                  
+    </head>
+    <body   onload="showAlert()"   >
+        
+        
+        <!-- this is a video -->
+     
+<video controls width="150" height="200"  src=" https://youtu.be/vZgofIIrWSQ"  >Ici la description alternative</video>
+        
+        <!-- this is a code block --> 
+        
+        
+ 
+
+        
+        <h1>HTML warmup </h1>
+        <h2> Following the procedure </h2>
+        
+        <!--
+            Simulation comment, ici c'est juste un paragraphe pour le fun par exemple
+        -->
+        
+        <p>
+            Bienvenue dans Brackets, un éditeur de code open source qui comprend et facilite la conception de sites web. Il s’agit d’un éditeur à la fois léger et puissant qui intègre des outils visuels directement dans son interface, de sorte que chaque opération peut devenir un véritable jeu d’enfant.
+        </p>
+        
+        <!--
+            the animated img
+        -->
+        <p>
+            <em>Animated immage </em>
+            <img src="https://media.giphy.com/media/3o6UBpHgaXFDNAuttm/giphy.gif">
+        </p>
+        
+        <!--
+            COMMENCER AVEC VOS PROPRES FICHIERS
+        -->
+        
+        <h3>Projets Brackets</h3>
+        <p>
+            Pour éditer votre propre code à l’aide de l’application Brackets, il vous suffit d’ouvrir le dossier contenant vos fichiers.
+            Brackets traite le dossier ouvert en tant que « projet » ; ainsi, les fonctionnalités Indicateurs de code, Aperçu en direct ou encore Edition rapide s’appliquent uniquement aux fichiers du dossier ouvert.
+        </p>
+        
+        <samp>
+            Si vous vous sentez prêt à franchir le cap et à éditer votre propre code, fermez cet exemple de projet et utilisez la liste déroulante de la barre latérale de gauche pour changer de dossier. Pour le moment, la liste déroulante s’intitule « Prise en main », ce qui correspond au dossier dans lequel se trouve le fichier fictif sur lequel vous vous exercez actuellement. Cliquez sur la liste déroulante et sélectionnez « Ouvrir un dossier… » pour accéder à votre propre dossier.
+            Par la suite, vous pourrez tout à fait revenir aux dossiers précédemment ouverts, y compris cet exemple de projet, grâce à cette même liste déroulante.
+        </samp>
+        
+        <!--
+            LA RELATION ENTRE HTML, CSS, ET JAVASCRIPT
+        -->
+        <h3>Edition rapide des codes CSS et JavaScript</h3>
+        <p>
+            Vous ne risquez plus de perdre de vue le contexte en passant d’un document à un autre. Lorsque vous modifiez un fichier HTML, utilisez le raccourci <kbd>Cmd/Ctrl + E</kbd> pour ouvrir un éditeur rapide intégré qui affiche l’ensemble du code CSS associé.
+            Peaufinez votre CSS, puis appuyez sur <kbd>Echap</kbd> pour revenir au format HTML, ou laissez simplement les règles CSS ouvertes afin qu’elles deviennent partie intégrante de l’éditeur HTML. Si vous appuyez sur <kbd>Echap</kbd> en dehors d’un éditeur intégré rapide, tous les éditeurs sont réduits. La fonction Edition rapide détecte également les règles définies dans les fichiers LESS et SCSS, y compris les règles imbriquées.
+        </p>
+
+        <samp>
+            Une petite démonstration ? Placez le curseur de la souris sur la balise <!-- <samp> --> et tapez <kbd>Cmd/Ctrl + E</kbd>. Un éditeur rapide CSS apparaît en superposition, avec la règle CSS applicable. La fonction Edition rapide est également utilisable pour les attributs de classe et d’ID. Vous pouvez aussi vous en servir sur vos fichiers LESS et SCSS.
+            
+            Vous pouvez créer de nouvelles règles en procédant de la même manière. Cliquez sur l’une des balises <!-- <p> --> en haut du document et appuyez sur <kbd>Cmd/Ctrl + E</kbd>. Il n’existe aucune règle associée pour le moment, mais vous pouvez cliquer sur le bouton Nouvelle règle afin d’ajouter une règle pour <!-- <p> -->.
+        </samp>
+        
+        <a href="screenshots/quick-edit.png">
+            <img alt="Capture d’écran de la fonction Edition rapide CSS" src="screenshots/quick-edit.png" />
+        </a>
+        
+        <p>
+            Vous pouvez utiliser le même raccourci pour éditer d’autres éléments, comme les fonctions dans JavaScript, les couleurs ou les fonctions de temporisation d’animation ; nous ajoutons sans cesse des nouveautés.
+        </p>
+        <p>
+            Les éditeurs intégrés ne peuvent pas encore être imbriqués. Vous ne pouvez donc utiliser la fonction Edition rapide que lorsque le curseur se trouve dans un éditeur « plein écran ».
+        </p>
+        
+        <!--
+            APERÇU EN DIRECT
+        -->
+        <h3>Affichage des modifications HTML et CSS en direct dans le navigateur</h3>
+        <p>
+            Depuis des années, nous pratiquons tous la fameuse technique « Enregistrer/Actualiser » : apporter des modifications dans l’éditeur, enregistrer, basculer vers le navigateur, puis actualiser la page pour voir le résultat.
+            Avec Brackets, cette longue procédure appartient au passé.
+        </p>
+        <p>
+            Brackets se connecte <em>en direct</em> à votre navigateur local et transmet vos mises à jour au fur et à mesure que vous les appliquez au code HTML et CSS. Certes, il existe des outils accessibles directement depuis le navigateur qui permettent d’obtenir un résultat similaire mais, avec Brackets, vous n’avez pas besoin de copier et coller à nouveau le code final dans l’éditeur. Le navigateur lit votre code, mais c’est l’éditeur qui le fait vivre !
+        </p>
+        
+        <h3>Mise en surbrillance en direct des éléments HTML et règles CSS</h3>
+        <p>
+            Avec Brackets, vous pouvez facilement visualiser les effets des modifications du code HTML et CSS sur la page. Lorsque vous placez le curseur sur une règle CSS, Brackets surligne tous les éléments concernés dans le navigateur. De même, lorsque vous éditez un fichier HTML, Brackets surligne les éléments HTML correspondants dans le navigateur.
+        </p>
+        
+        <samp>
+            Si vous avez installé Google Chrome, vous pouvez dès maintenant tester cette fonctionnalité. Cliquez sur l’icône représentant un éclair en haut à droite de la fenêtre Brackets ou utilisez la combinaison <kbd>Cmd/Ctrl + Alt + P</kbd>. Lorsque le module Aperçu en direct est activé sur un document HTML, tous les documents CSS associés peuvent être modifiés en temps réel.
+            L’icône passe du gris au doré une fois que Brackets a établi la connexion à votre navigateur.
+            
+            Placez maintenant le curseur sur la balise <!-- <img> -->. Vous constatez qu’une surbrillance bleue apparaît tout autour de l’image dans Chrome. Utilisez ensuite la combinaison <kbd>Cmd/Ctrl + E</kbd> pour ouvrir les règles CSS définies.
+            Essayez de faire passer l’épaisseur de la bordure de 10 px à 20 px, ou de remplacer la couleur d’arrière-plan « transparent » par « hotpink ». Si Brackets et votre navigateur s’exécutent côte à côte, ce dernier affiche immédiatement les modifications. Plutôt sympathique, non ?
+        </samp>
+        
+        <p class="note">
+            A l’heure actuelle, le module Aperçu en direct de Brackets ne fonctionne que pour le code HTML et CSS. Cependant, dans cette version, les modifications apportées aux fichiers JavaScript sont automatiquement rechargées lorsque vous enregistrez. Nous travaillons activement à la prise en charge du module Aperçu en direct pour le langage JavaScript. La fonctionnalité Aperçu en direct n’est disponible qu’avec Google Chrome, mais nous souhaitons à l’avenir la déployer sur l’ensemble des navigateurs.
+        </p>
+        
+        <h3>Affichage rapide</h3>
+        <p>
+            Pour ceux d’entre nous qui n’ont pas encore mémorisé les équivalents en couleur des valeurs HEX ou RVB, Brackets permet d’afficher rapidement et facilement la couleur utilisée. Dans le code CSS ou HTML, placez simplement le curseur sur une valeur colorimétrique ou un dégradé, et Brackets affiche automatiquement un aperçu de la couleur ou du dégradé en question. Procédez de même pour les images : placez simplement le curseur sur le lien d’une image dans l’éditeur Brackets pour en afficher une miniature.
+        </p>
+        
+        <samp>
+            Testez la fonction Affichage rapide par vous-même : placez le curseur sur la balise <!-- <body> --> en haut du document et appuyez sur <kbd>Cmd/Ctrl + E</kbd> pour ouvrir un éditeur rapide CSS. A présent, placez le curseur sur l’une des valeurs de couleur dans le code CSS. Vous pouvez également tester cette fonctionnalité sur un dégradé : ouvrez un éditeur rapide CSS sur la balise <!-- <html> -->, puis passez le curseur sur l’une des valeurs de l’image d’arrière-plan. Pour essayer l’aperçu avec une image, placez le curseur sur la capture d’écran insérée plus haut dans le document.
+        </samp>
+        
+        <h3>Vous en voulez plus ? Jetez un œil du côté des extensions !</h3>
+        <p>
+            En plus de tous les atouts déjà intégrés à Brackets, notre communauté de développeurs, qui ne cesse de s’agrandir, a mis au point des centaines d’extensions qui offrent des fonctionnalités très pratiques. Si vous avez besoin d’une fonction qui ne se trouve pas dans Brackets, il est fort probable qu’un utilisateur ait créé l’extension qu’il vous faut. Pour parcourir la liste des extensions disponibles ou en rechercher une en particulier, cliquez sur <strong>Fichier &gt; Gestionnaire d’extensions</strong>, puis ouvrez l’onglet « Disponible ». Lorsque vous trouvez l’extension qui vous convient, il vous suffit de cliquer sur le bouton Installer correspondant.
+        </p>
+        
+        <!--
+an unordered list + an ordered list + a list inside a list 
+
+        -->
+        <h2> Les listes en HTML c'est fun et pratique !  </h2>
+        <p>
+           Alors voila les listes en question
+        </p>
+        <ul>
+            <li><a href="http://brackets.io">Brackets.io</a></li>
+            <li><a href="http://blog.brackets.io">Blog de l’équipe Brackets</a></li>
+            <li><a href="https://github.com/adobe/brackets">Brackets sur GitHub</a></li>
+            <li><a href="https://brackets-registry.aboutweb.com">Registre des extensions Brackets</a></li>
+            <li><a href="https://github.com/adobe/brackets/wiki">Wiki Brackets</a></li>
+            <li><a href="https://groups.google.com/forum/#!forum/brackets-dev">Liste de diffusion des développeurs Brackets</a></li>
+            <li><a href="https://twitter.com/brackets">@brackets on Twitter</a></li>
+            <li>Discutez avec les développeurs de Brackets via IRC sur <a href="http://webchat.freenode.net/?channels=brackets&uio=d4">#brackets on Freenode</a></li>
+        </ul>
+        
+        <ol>  
+            
+        <li> 
+            <img src = "data:image/png;base64,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 "  alt="logo du html5">        
+         
+        </ol>
+        
+        
+        
+        
+        <ul>    
+        <li> TROOOOOOOOOOOOOOOOOO    <ul> <li> LOOOOOOOOOOOOOO   </li>      </ul>   LOLOLOLOLO      </li>
+        </ul>
+        
+     <!--  A small video -->    
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
